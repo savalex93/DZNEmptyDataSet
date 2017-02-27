@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.author        = { "dzenbot" => "iromero@dzen.cl" }
   s.ios.deployment_target   = '6.0'
-  s.tvos.deployment_target  = '9.0'
+  s.tvos.deployment_target = "9.0"
   s.source        = { :git => "https://github.com/dzenbot/DZNEmptyDataSet.git", :tag => "v#{s.version}" }
   s.source_files  = 'Classes', 'Source/**/*.{h,m}'
   s.requires_arc  = true
